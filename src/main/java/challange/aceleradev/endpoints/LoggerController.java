@@ -1,10 +1,13 @@
 package challange.aceleradev.endpoints;
 
+
 import challange.aceleradev.entity.Log;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/logger")
